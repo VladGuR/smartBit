@@ -9,34 +9,75 @@ body {
     height: 100vh;
 }
 
-.main_menu {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.main_menu a {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 20px;
-    letter-spacing: 2px;
-    font-family: 'Inter', sans-serif;
-    text-decoration: none;
-    padding: 20px;
-    color: darkviolet;
-}
-
 .title {
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 50px;
     width: 100%;
     height: 500px;
     margin: 50px 0 120px 0;
+}
+
+.title .logo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    margin-top: 400px;
+}
+
+.title .logo .digital_agency {
+    width: 450px;
+}
+
+.title .logo .smart_bit {
+    width: 450px;
+}
+
+.title .logo .wh_we {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    width: 450px;
+    height: 200px;
+    margin-top: 200px;
+}
+
+.title .logo .wh_we .watchword {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 360px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.title .logo .wh_we .tool_sp_a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    width: 360px;
+    height: 200px;
+    flex-direction: column;
+}
+
+.title .logo .wh_we .tool_sp_a .tools a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 360px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.title .logo .wh_we .tool_sp_a .tools a:hover {
+    color: darkviolet;
 }
 
 .title img {
@@ -52,28 +93,6 @@ body {
 .color2 {
     color: darkviolet;
 }
-
-
-.our_works {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    height: 500px;
-    flex-wrap: wrap;
-}
-
-.wrk_blocks{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 280px;
-    height: 150px;
-    background-color: black;
-    margin-bottom: 20px;
-    border-radius: 10px;
-}
-
 
 
 

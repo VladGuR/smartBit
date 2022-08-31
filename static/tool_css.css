@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.promotion_tools{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-direction: column;
+    width: 100%;
+}
+
+.promotion_tools span{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 80%;
+    font-size: 50px;
+    font-weight: bold;
+    color: #44e2ee;
+    margin-left: 70px;
+}
+
+.promotion_tools .market{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 140px;
+    background-color: #010101;
+    margin-bottom: 5px;
+}
+
+.promotion_tools .web_develop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 140px;
+    background-color: #010101;
+    margin-bottom: 5px;
+}
+
+.promotion_tools .brand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 140px;
+    background-color: #010101;
+    margin-bottom: 5px;
+}
+
+.promotion_tools .advert{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 140px;
+    background-color: #010101;
+    margin-bottom: 5px;
+}
+
+.promotion_tools .optimiz_busprocess{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 140px;
+    background-color: #010101;
+}
