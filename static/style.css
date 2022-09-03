@@ -15,78 +15,88 @@ body {
 
 .title {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 50px;
     width: 100%;
-    height: 500px;
-    margin: 50px 0 120px 0;
+    height: 100vh;
+    flex-direction: row;
 }
 
 .title .logo {
     display: flex;
-    justify-content: flex-end;
+    justify-content: end;
     align-items: center;
     flex-direction: column;
-    width: 400px;
-    height: 300px;
-    margin-top: 400px;
+    height: 100%;
+    margin: 0 0 80px 70px;
 }
 
-.title .logo .digital_agency {
+.logo .digital_bit {
     width: 450px;
+    font-family: 'Ubuntu-Regular', sans-serif;
+    font-style: normal;
 }
 
-.title .logo .smart_bit {
-    width: 450px;
-}
-
-.title .logo .wh_we {
+.logo .wh_we {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     align-items: start;
     flex-direction: column;
-    width: 450px;
+    width: 340px;
     height: 200px;
-    margin-top: 200px;
+    margin: 130px 0 0 50px;
 }
 
-.title .logo .wh_we .watchword {
+.wh_we .watchword {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 360px;
+    width: 370px;
     font-size: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu-Regular', sans-serif;
+    font-style: normal;
+    font-weight: normal;
 }
 
-.title .logo .wh_we .tool_sp_a {
+.wh_we .tool_sp_a {
     display: flex;
-    justify-content: flex-start;
-    align-items: start;
+    justify-content: start;
+    align-items: center;
     width: 360px;
     height: 200px;
     flex-direction: column;
 }
 
-.title .logo .wh_we .tool_sp_a .tools a {
+.tool_sp_a .tools {
     display: flex;
-    justify-content: flex-start;
+    justify-content: start;
     align-items: center;
-    width: 360px;
+    width: 350px;
+    font-family: 'Ubuntu-Regular', sans-serif;
+    font-style: normal;
+}
+
+.tools .line{
+    width: 20px;
+    height: 2px;
+    background-color: darkviolet;
+    margin-right: 15px;
+}
+
+.tool_sp_a .tools a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 15px;
     text-decoration: none;
     color: black;
 }
 
-.title .logo .wh_we .tool_sp_a .tools a:hover {
+.tool_sp_a .tools a:hover {
     color: darkviolet;
-}
-
-.title img {
-    width: 500px;
-    height: 500px;
 }
 
 .color1 {
@@ -96,6 +106,26 @@ body {
 
 .color2 {
     color: darkviolet;
+}
+
+.title img {
+    width: 570px;
+    height: 500px;
+    margin-top: 40px;
+}
+
+.arrow_inf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 100%;
+    background-color: rgba(243, 243, 243, 0.51);
+    cursor: pointer;
+}
+
+.arrow_inf:hover{
+    background-color: rgba(227, 227, 227, 0.51);
 }
 
 
