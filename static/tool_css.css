@@ -39,8 +39,15 @@ body {
     justify-content: space-between;
     align-items: start;
     width: 100%;
-    height: 100vh;
-    background-color: #FFFFFF;
+    background-color: #000000;
+}
+
+.promotion_tools .market_top_descript{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
 }
 
 .market_descript_review{
@@ -50,28 +57,32 @@ body {
     flex-direction: column;
 }
 
-.market_descript_review span{
+.market_descript_review .top_descript{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 170px;
+}
+
+.market_descript_review .top_descript span{
+    display: flex;
+    justify-content: center;
+    align-items: start;
     font-family: 'Ubuntu-Regular', sans-serif;
     font-style: normal;
+    font-weight: normal;
     color: #000000;
     font-size: 18px;
 }
 
-.market_descript_review .top_descript{
+.market_descript_review .middle_descript{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    height: 230px;
-    flex-direction: row;
-}
-
-.middle_descript{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
     width: 100%;
     height: 670px;
+    background-color: #F5F5F5;
 }
 
 .middle_descript .descript_numb{
@@ -79,6 +90,51 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 600px;
+    width: 700px;
+    height: 540px;
+}
+
+.descript_how2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px;
+}
+
+.descript_how2 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu-Regular', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+    font-size: 15px;
+}
+
+.descript_how3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px;
+    margin-top: 30px;
+}
+
+.descript_how3 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu-Regular', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+    font-size: 15px;
+}
+
+.bottom_descript{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
 }
 
