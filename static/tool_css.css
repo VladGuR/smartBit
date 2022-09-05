@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
 a{
     text-decoration: none;
 }
@@ -87,21 +92,41 @@ body {
 
 .middle_descript .descript_numb{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     flex-direction: column;
     width: 700px;
-    height: 540px;
+    height: 100%;
 }
 
-.descript_how2{
+.descript_numb .descript_how1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 700px;
+    margin: 70px 0 90px 0;
+}
+
+.descript_numb .descript_how1 span{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: 'Ubuntu-Regular', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #be3ed0;
+    font-size: 30px;
+}
+
+.descript_numb .descript_how2{
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 700px;
+    margin-bottom: 30px;
 }
 
-.descript_how2 span{
+.descript_numb .descript_how2 span{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,18 +134,17 @@ body {
     font-style: normal;
     font-weight: normal;
     color: #000000;
-    font-size: 15px;
+    font-size: 20px;
 }
 
-.descript_how3{
+.descript_numb .descript_how3{
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 700px;
-    margin-top: 30px;
 }
 
-.descript_how3 span{
+.descript_numb .descript_how3 span{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,7 +152,7 @@ body {
     font-style: normal;
     font-weight: normal;
     color: #000000;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .bottom_descript{
