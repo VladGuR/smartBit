@@ -7,18 +7,18 @@ function plusSlide() {
 /!* Функция уменьшяет индекс на 1, показывает предыдущий слайд*!/
 function minusSlide() {
     showSlides(slideIndex -= 1);
-}*/
+}
 
 /* Индекс слайда по умолчанию */
 // var slideIndex = 1;
 // showSlides(slideIndex);
 //
- /*Устанавливает текущий слайд */
+//  /*Устанавливает текущий слайд */
 // function currentSlide(n) {
 //     showSlides(slideIndex = n);
 // }
 //
-/* Основная функция сладера */
+// /* Основная функция сладера */
 // function showSlides(n) {
 //     var i;
 //     var slides = document.getElementsByClassName("item");
